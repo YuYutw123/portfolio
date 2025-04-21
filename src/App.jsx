@@ -30,7 +30,7 @@ function App() {
 
 
     return (
-        <div className='min-h-[100vh] bg-white'>
+        <div className='w-full min-h-[100vh] bg-white'>
             <Header></Header>
             <Work
                 title={"書籍資訊管理系統 全端"}
@@ -38,6 +38,7 @@ function App() {
                 iconList={iconList1}
                 pictureList={["https://i.imgur.com/QoDsgPl.png", "https://i.imgur.com/Gna31PP.png"]}
                 bgColor={"bg-blue-100"}
+                projectLink={"https://github.com/Yuri-site/yuri-site.github.io"}
             />
             <Work
                 title={"商家點餐系統 前端"}
@@ -45,6 +46,7 @@ function App() {
                 iconList={iconList2}
                 pictureList={["https://i.imgur.com/Oryq5gk.png", "https://i.imgur.com/7T2Usmk.png"]}
                 bgColor={"bg-blue-200"}
+                projectLink={"https://github.com/NTOU-Order-Now/Order-Now-Frontend"}
             />
             <Work
                 title={"遊戲模組開發"}
@@ -52,6 +54,7 @@ function App() {
                 iconList={iconList3}
                 pictureList={["https://i.imgur.com/qjymNb8.png", "https://i.imgur.com/Q1ofbLS.png"]}
                 bgColor={"bg-blue-100"}
+                projectLink={"https://github.com/YuYutw123/MyGO-Together"}
             />
         </div>
     )
